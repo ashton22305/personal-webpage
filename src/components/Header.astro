@@ -1,0 +1,9 @@
+---
+import { site } from '../site';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<header>
+  <a href={base}>{site.name}</a>
+</header>
